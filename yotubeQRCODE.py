@@ -7,7 +7,7 @@ qr=qrcode.QRCode(
     border=5
 )
 
-data="https://www.yourquote.in/poeish-c2jey/quotes"
+data="https://www.linkedin.com/in/khushi-agarwal-b756b61b9/"
 qr.add_data(data)
 qr.make(fit=True)
 img=qr.make_image(fill="black",back_color="white")
