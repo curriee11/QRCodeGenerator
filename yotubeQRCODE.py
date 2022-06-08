@@ -1,5 +1,4 @@
-# import imghdr
-from PIL import Image
+
 import qrcode
 qr=qrcode.QRCode(
     box_size=10,
